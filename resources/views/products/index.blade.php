@@ -73,7 +73,7 @@
     </style>
 </head>
 <body>
-    <h1>Product List</h1>
+    <h1>Product Lists</h1>
     @if (session()->has('success'))
         <div class="success-message">
             {{ session('success') }}
